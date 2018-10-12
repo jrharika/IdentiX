@@ -1,0 +1,21 @@
+INFO [10-11|21:31:02.281] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [10-11|21:31:02.282] Starting peer-to-peer node               instance=Geth/v1.8.16-stable-477eb093/linux-amd64/go1.11
+INFO [10-11|21:31:02.282] Allocated cache and file handles         database=/home/chenmx00/Desktop/BAB_IP_Homelessness/homelesness-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [10-11|21:31:02.299] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [10-11|21:31:02.299] Disk storage enabled for ethash caches   dir=/home/chenmx00/Desktop/BAB_IP_Homelessness/homelesness-eth-chain/myDataDir/geth/ethash count=3
+INFO [10-11|21:31:02.299] Disk storage enabled for ethash DAGs     dir=/home/chenmx00/.ethash                                                                 count=2
+INFO [10-11|21:31:02.299] Initialising Ethereum protocol           versions="[63 62]" network=5465
+INFO [10-11|21:31:02.299] Loaded most recent local header          number=0 hash=0e864c…fd6075 td=400 age=49y5mo3w
+INFO [10-11|21:31:02.299] Loaded most recent local full block      number=0 hash=0e864c…fd6075 td=400 age=49y5mo3w
+INFO [10-11|21:31:02.299] Loaded most recent local fast block      number=0 hash=0e864c…fd6075 td=400 age=49y5mo3w
+INFO [10-11|21:31:02.299] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-11|21:31:02.299] Starting P2P networking 
+INFO [10-11|21:31:04.410] UDP listener up                          self=enode://1e0b68e043b4cc4b58db4d86009b44dba182961aaaa502e8e96932f3fb594ef56ea03d08cd580f2387a87270177398d8d1be94856beb9041b7881eed36831cdf@[::]:30303
+INFO [10-11|21:31:04.410] RLPx listener up                         self=enode://1e0b68e043b4cc4b58db4d86009b44dba182961aaaa502e8e96932f3fb594ef56ea03d08cd580f2387a87270177398d8d1be94856beb9041b7881eed36831cdf@[::]:30303
+INFO [10-11|21:31:04.411] IPC endpoint opened                      url=/home/chenmx00/Desktop/BAB_IP_Homelessness/homelesness-eth-chain/myDataDir/geth.ipc
+INFO [10-11|21:34:50.711] IPC endpoint closed                      endpoint=/home/chenmx00/Desktop/BAB_IP_Homelessness/homelesness-eth-chain/myDataDir/geth.ipc
+INFO [10-11|21:34:50.711] Blockchain manager stopped 
+INFO [10-11|21:34:50.711] Stopping Ethereum protocol 
+INFO [10-11|21:34:50.711] Ethereum protocol stopped 
+INFO [10-11|21:34:50.711] Transaction pool stopped 
+INFO [10-11|21:34:50.712] Database closed                          database=/home/chenmx00/Desktop/BAB_IP_Homelessness/homelesness-eth-chain/myDataDir/geth/chaindata
