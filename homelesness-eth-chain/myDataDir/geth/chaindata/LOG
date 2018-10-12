@@ -16,3 +16,47 @@
 21:31:02.299172 db@open done T·16.573143ms
 21:34:50.711851 db@close closing
 21:34:50.712439 db@close done T·583.284µs
+=============== Oct 11, 2018 (PDT) ===============
+21:50:15.295031 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:50:15.296077 version@stat F·[1] S·736B[736B] Sc·[0.25]
+21:50:15.296100 db@open opening
+21:50:15.296181 journal@recovery F·1
+21:50:15.303053 journal@recovery recovering @3
+21:50:15.303845 memdb@flush created L0@5 N·2 S·238B "Dat..ion,v13":"Las..der,v14"
+21:50:15.309456 version@stat F·[2] S·974B[974B] Sc·[0.50]
+21:50:15.310694 db@janitor F·4 G·0
+21:50:15.310741 db@open done T·14.622494ms
+21:56:03.834083 db@close closing
+21:56:03.855831 db@close done T·21.745428ms
+=============== Oct 11, 2018 (PDT) ===============
+21:58:30.459262 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:58:30.460057 version@stat F·[2] S·974B[974B] Sc·[0.50]
+21:58:30.460090 db@open opening
+21:58:30.460184 journal@recovery F·1
+21:58:30.464291 journal@recovery recovering @6
+21:58:30.464992 memdb@flush created L0@8 N·2 S·238B "Dat..ion,v16":"Las..der,v17"
+21:58:30.468764 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+21:58:30.470483 db@janitor F·5 G·0
+21:58:30.470533 db@open done T·10.427115ms
+22:03:29.672011 db@close closing
+22:03:29.672114 db@close done T·101.81µs
+=============== Oct 11, 2018 (PDT) ===============
+22:05:30.427645 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:05:30.428492 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+22:05:30.428509 db@open opening
+22:05:30.428562 journal@recovery F·1
+22:05:30.432010 journal@recovery recovering @9
+22:05:30.432678 memdb@flush created L0@11 N·2 S·238B "Dat..ion,v19":"Las..der,v20"
+22:05:30.436190 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+22:05:30.437606 db@janitor F·6 G·0
+22:05:30.437660 db@open done T·9.132754ms
+22:05:30.437755 table@compaction L0·4 -> L1·0 S·1KiB Q·21
+22:05:30.438858 table@build created L1@14 N·12 S·758B "Dat..ion,v19":"茦..;\xa6\x9b,v2"
+22:05:30.438913 version@stat F·[0 1] S·758B[0B 758B] Sc·[0.00 0.00]
+22:05:30.439149 table@compaction committed F-3 S-692B Ke·0 D·5 T·1.338024ms
+22:05:30.439329 table@remove removed @11
+22:05:30.439403 table@remove removed @8
+22:05:30.439456 table@remove removed @5
+22:05:30.439559 table@remove removed @2
+22:05:36.171776 db@close closing
+22:05:36.171966 db@close done T·160.439µs
