@@ -1,4 +1,4 @@
-
+pragma solidity ^0.4.25
 contract IdentiX {
     enum State { Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, District of Columbia, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming }
     enum Institution_Type { }
@@ -9,7 +9,6 @@ contract IdentiX {
         State state;
         Institution_Type institution_type;
         bool can_verify;
-        
         address[] checked_in_clients;
     }
     
@@ -23,6 +22,8 @@ contract IdentiX {
         public Sex sex;
         public Gender gender;
         public ID_Type id_type;
+        public Institution checked_in_at;
+        public string info_for_inst;
     }
     
     address public admin;
@@ -71,11 +72,21 @@ contract IdentiX {
     //need a function that undoes this
     function check_in(address inst_pub_addr, string identifying_info_that_inst_can_read) external {
         require(client_map[msg.sender], "Only clients can check in.");
-        
         Client client = client_map[user_pub_addr];
-        client.identifying_info = identifying_info;
+        
+        client.info_for_inst = identifying_info_that_inst_can_read;
+        client.checked_in_at = institution_map[inst_pub_addr];
         
         institution_map[inst_pub_addr].checked_in_clients.push(msg.sender);
     }
-}
 
+    function client_check_out(address inst_pub_addr) external {
+        require(client_map[msg.sender], "Only clients can self check out");
+        Client client = client_map[msg.sender];
+        
+        client.checked_in_at = null;
+        client.info_for_inst = null;
+        
+        institution_map[inst_pub_addr].checked_in_clients.remove(msg.sender);
+    }
+}
