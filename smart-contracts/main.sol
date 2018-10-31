@@ -13,9 +13,17 @@ contract IdentiX {
         address[] checked_in_clients;
     }
     
+    struct Records {
+      private string identifying_info;
+      private string institution_name;
+      private Institution_Type institution_type;
+      private string ipfs_Address;
+      private string permission_key;
+    }
+    
     enum Sex { Male, Female };
     enum Gender { Male, Female, Nonbinary, Other };
-    enum ID_Type { No_ID, SSN, California_state_ID };
+    enum ID_Ttype { No_ID, SSN, California_state_ID };
     
     struct Client {
         public string identifying_info; //first name, last name, and id number are encrypted for privacy
@@ -33,7 +41,7 @@ contract IdentiX {
         public uint256 time_of_visit;
         public string ipfs_address;
     }
-    
+     
     address public admin;
     mapping(address => Institution) institution_map;
     mapping(address => Client) client_map;
@@ -134,6 +142,4 @@ contract IdentiX {
         
         check_out_helper(client_pub_addr);
     }
-    
 }
-
