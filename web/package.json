@@ -1,0 +1,24 @@
+{
+  "name": "identx",
+  "version": "1.0.0",
+  "description": "tryout of first version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrharika/BAB_IP_Homelessness.git"
+  },
+  "author": "Harika, Minxing, Ayush, Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrharika/BAB_IP_Homelessness/issues"
+  },
+  "homepage": "https://github.com/jrharika/BAB_IP_Homelessness#readme",
+  "dependencies": {
+    "ethereumjs-tx": "^1.3.7",
+    "express": "^4.16.4",
+    "web3": "^1.0.0-beta.36"
+  }
+}
