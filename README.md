@@ -1,5 +1,5 @@
 # IdentiX - Blockchain at Berkeley, Homelessness Internal Project
-A blockchain solution for identity management for the homeless population in Berkeley.
+A blockchain solution for identity and record management for the homeless population in Berkeley.
 
 ## Project Description
 Our project aims to use blockchain technology to create a digital identity and record management system for those experiencing homelessness, so that they are more likely to gain access to the shelter and full range of services that they need in order to create a path out of chronic homelessness. We have validated and refined this use case by conducting interviews with a range of organizations across Contra Costa, Alameda, and San Francisco counties (including private, county-funded, non-profit, walk-in, long-term, and youth focused facilities.) We are in the process of evaluating the feasibility of running a small scale pilot with two of these organizations. 
