@@ -1,7 +1,0 @@
-
-eth.coinbase
-miner.setEtherbase(web3.eth.accounts[0])
-eth.getBalance(eth.coinbase)
-miner.start()
-eth.getBalance(0xB8C9C69424892E40D526b6E6F588B16324481592)
-eth.getBalance("0xB8C9C69424892E40D526b6E6F588B16324481592")
