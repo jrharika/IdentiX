@@ -1,7 +1,8 @@
 pragma solidity ^0.4.24;
+
 contract IdentiX {
     enum State { Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, District_of_Columbia, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New_Hampshire, New_Jersey, New_Mexico, New_York, North_Carolina, North_Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode_Island, South_Carolina, South_Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West_Virginia, Wisconsin, Wyoming }
-    enum Institution_Type { basic }
+    enum Institution_Type { basic, clinic, shelter }
     struct Institution {
         string name;
         string street_addr;
@@ -22,9 +23,10 @@ contract IdentiX {
         address inst_pub_addr;
         string permission_key_hash;
         uint256 time_of_visit;
-     
+
         string ipfs_address;
     }
+
     struct Client {
         string identifying_info; //first name, last name, and id number are encrypted for privacy
         string identifying_info_for_inst;
