@@ -196,22 +196,16 @@ function getInst(inst_public_address) {
 	return myContract.methods.institution_map(inst_public_address).call();
 }
 
-// Call the function and do something with the result:
-// getDetails(15)
-// .then(function(result) {
-//   console.log("Institution 15: " + JSON.stringify(result));
-// });
 
-function print() {
+function testPrint() {
 	var client = getClient(address);
-	//console.log()
 	for (var i = 0; i < client.len; i++) {
    		var record = client.record_metas[i];
    		var inst = getInst(record.inst_pub_addr);
    		console.log(inst.name + inst.institution_type + record.time_of_visit + inst.city + inst.state);
    	}
 }
-print();
+testPrint();
 
 class RecordMetaCardComponent extends Component {
     render() {
