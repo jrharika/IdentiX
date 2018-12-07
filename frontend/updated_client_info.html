@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>View Client</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/client_sheet.css" />
+        <!-- <link rel="stylesheet" href="css/login_style.css" /> -->
+        <link rel="stylesheet" href="css/login_style2.css" />
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="cover-container d-flex  p-3 mx-auto flex-column">
+
+        <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand"></h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="cover.html">Home</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="clients_login.html">Log out</a>
+          </nav>
+        </div>
+      </header>
+      </div>
+
+      <!-- <main role="main" class="inner cover"> -->
+        <div class="records dcenter">
+        <div class="col-lg-11">
+            <h3>Kieth's Records</h3>
+        </div>
+        <br/>
+          <div class="card mcenter" style="width: 18rem;">
+            <div class="card-body pcenter">
+              <h5 class="card-title text-muted">Dwight Way Shelter</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Shelter</h6>
+              <h6 class="card-subtitle mb-2 text-muted">11/12/18 - 11/15/18</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Berkeley, CA</h6>
+              <a href="#" class="card-link">View File</a>
+            </div>
+        </div>
+        <div class="card mcenter" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-muted">Berkeley Free Clinic</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Clinic</h6>
+            <h6 class="card-subtitle mb-2 text-muted">11/20/18</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Berkeley, CA</h6>
+            <a href="#" class="card-link">View File</a>
+          </div>
+      </div>
+      <div class="card mcenter" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Oakland Medical Center</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Clinic</h6>
+          <h6 class="card-subtitle mb-2 text-muted">11/24/18</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Oakland, CA</h6>
+          <a href="#" class="card-link">View File</a>
+        </div>
+    </div>
+    <div class="card mcenter" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title text-muted">Contra Costa Crisis Center</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Clinic</h6>
+        <h6 class="card-subtitle mb-2 text-muted">12/7/18</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Alameda, CA</h6>
+        <a href="#" class="card-link">View File</a>
+      </div>
+  </div>
+  </div>
+
+<!-- </main> -->
+
+
+
+            <div class="dcenter mycenter">
+            <div class="mysign">
+                <form action="login.php" method="post">
+                <div class="col-lg-11 text-center">
+                    <h3>Add Record</h3>
+                </div>
+
+                <div class="col-lg-10"></div>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" name="Permission Key" placeholder="Permission Key" required autofocus/>
+                </div>
+                 <div class="col-lg-10">
+                    <input type="text" class="form-control" name="Time of Visit" placeholder="Time of Visit" required autofocus/>
+                </div>
+                <div class="col-lg-10"></div>
+
+
+                <div class="col-lg-10"></div>
+                <div class="col-lg-10">
+         <form action="/action_page.php">
+  <input type="file" name="pic" F accept="image/*">
+  <input type="submit" class="btn btn-success col-lg-12">
+</form>
+
+                </div>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>

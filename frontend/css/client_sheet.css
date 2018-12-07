@@ -1,0 +1,36 @@
+body {
+      background-color: #333;
+}
+
+.dcenter{
+    display: inline-block;
+    float: left;
+    margin-top: 100px;
+    /* margin-left: 400px;  */
+    /* margin-right: auto; */
+    height: 350px;
+    width:520px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.records{
+    margin-top: 1px;
+    margin-left: 210px;
+    float: left;
+
+}
+.mycenter mysign{
+    width: 440px;
+}
+.mycenter input,checkbox,button{
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mycheckbox{
+    margin-top:10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    height: 10px;
+}
