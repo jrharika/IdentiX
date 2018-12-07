@@ -188,7 +188,7 @@ const myABI = [
 const myContract = new web3.eth.Contract(myABI, myContractAddress);
 
 function getClient(client_public_address) {
-  	return myContract.methods.client_map(client_public_address).call();
+	return myContract.methods.client_map(client_public_address).call();
 
 }
 
