@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="node_modules/web3/bower/bignumber.js/perf/lib/bigdecimal_GWT"/>
+	<classpathentry kind="output" path="node_modules/web3/bower/bignumber.js/perf/lib/bigdecimal_GWT"/>
+</classpath>

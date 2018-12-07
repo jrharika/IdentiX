@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/frontend'));
 
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname +'/frontend/cover.html');
+  res.sendFile(__dirname +'/frontend/index.html');
 });
 
 app.post('/setUser', function(req, res, next) {
@@ -19,4 +19,3 @@ var server = app.listen(8080, function() {
 	var port = server.address().port;
 	console.log('Server listening at %s:%s', host, port);
 });
-
