@@ -2,8 +2,12 @@ var express = require('express');
 var app = express();
 var fs  = require('fs');
 
-app.get('/getUser', function(req, res) {
-	res.end('Hello World');
+app.use(express.static(__dirname + '/frontend'));
+
+
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname +'/frontend/cover.html');
 });
 
 app.post('/setUser', function(req, res, next) {

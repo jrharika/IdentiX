@@ -10,7 +10,6 @@ contract IdentiX {
         Institution_Type institution_type;
         bool can_verify;
         bool exists;
-        
         address[] checked_in_clients;
     }
     

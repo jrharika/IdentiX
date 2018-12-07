@@ -1,0 +1,13 @@
+.input-row {
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+} 
+
+.input-elem {
+  flex-grow: 1;
+}
+
+.pcenter {
+  text-align: center;
+}
