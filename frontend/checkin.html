@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Clients Login</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/login_style.css" />
+        <link rel="stylesheet" href="css/login_style2.css" />
+        <link rel="stylesheet" href="css/register.css" />
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="cover-container d-flex  p-3 mx-auto flex-column">
+
+        <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand"></h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="clients_login.html">Login as Clients</a>
+            <a class="nav-link" href="institutions_login.html">Login as Institutions</a>
+          </nav>
+        </div>
+      </header>
+      </div>
+        <form action="login.php" method="post">
+            <div class="mycenter">
+            <div class="mysign">
+                <div class="col-lg-11 text-center">
+                    <h2>Clients Check-In </h2>
+                </div>
+                </br>
+
+                <div class="col-lg-10 input-row">
+                    <div class="mcenter">
+                      <h4 class="pcenter">Institutions:</h4> <br/>
+                      <div class="mcenter">
+                      <select name="Institutions">
+                      <option value="Contra Costa">Contra Costa</option>
+                      <option value="Dwight Way Shelter">Dwight Way Shelter</option>
+                      <option value="Oakland Medical Center">Oakland Medical Center</option>
+                      </select>
+                      </div>
+                    </div>
+
+                </div>
+                </br>
+
+                <div class="col-lg-10">
+                    <button type="text" class="btn btn-success col-lg-12">Check-In</button>
+                </div>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
