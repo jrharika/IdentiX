@@ -11,3 +11,9 @@
 .pcenter {
   text-align: center;
 }
+
+.mcenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
