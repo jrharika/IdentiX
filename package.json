@@ -8,16 +8,21 @@
     "express": "*",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6",
+    "mongoclient": "^1.0.3",
     "react": "^16.6.3",
+    "mysql": "^2.16.0",
     "react-dom": "^16.6.3",
+    "connect": "^3.6.6",
     "react-scripts": "2.1.1",
+    "serve-static": "^1.13.2",
     "web3": "^0.20.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +34,8 @@
     "not op_mini all"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
 }
